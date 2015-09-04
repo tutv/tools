@@ -16,7 +16,7 @@
  */
 function wpi_stylesheet_uri( $stylesheet_uri, $stylesheet_dir_uri ) {
 
-	return $stylesheet_dir_uri . '/style.min.css';
+	return $stylesheet_dir_uri . '/css/style.css';
 }
 
 add_filter( 'stylesheet_uri', 'wpi_stylesheet_uri', 10, 2 );
