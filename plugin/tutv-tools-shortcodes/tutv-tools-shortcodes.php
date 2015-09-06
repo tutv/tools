@@ -10,6 +10,11 @@ Text Domain: tutv
 */
 
 /**
+ * Libraries
+ */
+require 'libs/init.php';
+
+/**
  * API
  */
 require 'api/init.php';

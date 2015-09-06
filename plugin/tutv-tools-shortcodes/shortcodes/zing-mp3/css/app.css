@@ -1,0 +1,11 @@
+#zing-mp3 form .zing-input {
+    margin-bottom: 10px;
+}
+
+#zing-mp3 form .zing-action #img_loading {
+    display: none;
+}
+
+#zing-mp3 form .zing-action #btn_reset {
+    display: none;
+}

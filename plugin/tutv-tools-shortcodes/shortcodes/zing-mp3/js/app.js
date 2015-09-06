@@ -3,5 +3,7 @@
  */
 
 jQuery(document).ready(function ($) {
+    $('#btn_get_zing_mp3').on('click', function () {
 
+    });
 });
