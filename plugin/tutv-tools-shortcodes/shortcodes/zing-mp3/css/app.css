@@ -9,3 +9,11 @@
 #zing-mp3 form .zing-action #btn_reset {
     display: none;
 }
+
+#zing-mp3 #zing_result {
+    display: none;
+}
+
+#zing-mp3 #zing_error {
+    display: none;
+}

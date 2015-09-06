@@ -25,6 +25,14 @@ function tutv_zing_mp3_short_code() {
                 </div>
             </form>
             <div id="zing_result">
+                <h2 class="title"></h2>
+                <div class="artist">' . esc_html__( 'Artist: ', 'tutv' ) . '<span></span></div>
+                <div class="composer">' . esc_html__( 'Composer: ', 'tutv' ) . '<span></span></div>
+                <a type="button" class="btn btn-success btn-lg" id="music_128">' . esc_html__( '128 kpbs', 'tutv' ) . '</a>
+                <a type="button" class="btn btn-success btn-lg" id="music_320">' . esc_html__( '320 kpbs', 'tutv' ) . '</a>
+            </div>
+            <div id="zing_error">
+                <p class="not-valid-url">' . esc_html__( 'URL not valid!', 'tutv' ) . '</p>
             </div>
         </div>';
 
