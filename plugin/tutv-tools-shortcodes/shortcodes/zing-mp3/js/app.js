@@ -4,7 +4,7 @@
 
 jQuery(document).ready(function ($) {
     var url_zing_dom = $('#link-mp3');
-    var result_dom = $('#zing_result');
+    var result_dom = $('#zing_result_song');
     var error_dom = $('#zing_error');
     var img_loading = $('#img_loading');
     var example_dom = $('#zing_example');

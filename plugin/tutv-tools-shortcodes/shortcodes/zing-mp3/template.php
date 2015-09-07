@@ -20,7 +20,7 @@
 			<li><?php printf( __( wp_kses( 'Song: <a href="#">%1$s</a>', array( 'a' => array( 'href' => array() ) ) ), 'tutv' ), 'http://mp3.zing.vn/bai-hat/Chieu-Nay-Khong-Co-Mua-Bay-Trung-Quan-Idol/ZW6CED0I.html' ); ?></li>
 		</ul>
 	</div>
-	<div id="zing_result">
+	<div id="zing_result_song">
 		<h3 class="title"></h3>
 
 		<div class="artist"><?php esc_html_e( 'Artist: ', 'tutv' ); ?><span></span></div>
@@ -35,6 +35,11 @@
 		<h4><?php esc_html_e( 'Lyrics', 'tutv' ); ?></h4>
 
 		<div class="lyrics"></div>
+	</div>
+	<div id="zing_result_album">
+		<h3 class="title"></h3>
+
+		<div class="artist"><?php esc_html_e( 'Artist: ', 'tutv' ); ?><span></span></div>
 	</div>
 	<div id="zing_error"></div>
 </div>

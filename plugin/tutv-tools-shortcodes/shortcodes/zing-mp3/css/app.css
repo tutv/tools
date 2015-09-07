@@ -11,7 +11,11 @@
     display: none;
 }
 
-#zing-mp3 #zing_result {
+#zing-mp3 #zing_result_song {
+    display: none;
+}
+
+#zing-mp3 #zing_result_album {
     display: none;
 }
 
