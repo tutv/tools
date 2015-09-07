@@ -9,6 +9,17 @@
 require 'unirest/Unirest.php';
 
 /**
+ * Print url admin ajax
+ */
+add_action( 'wp_print_scripts', 'tutv_print_url_admin_ajax' );
+function tutv_print_url_admin_ajax() { ?>
+	<script type="text/javascript">
+		var ajaxurl = '<?php echo admin_url( 'admin-ajax.php' ); ?>';
+	</script>
+	<?php
+}
+
+/**
  * File get contents
  *
  * @param $url
