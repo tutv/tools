@@ -15,11 +15,11 @@ Text Domain: tutv
 require 'libs/init.php';
 
 /**
- * API
- */
-require 'api/init.php';
-
-/**
  * Shortcodes
  */
 require 'shortcodes/init.php';
+
+/**
+ * API
+ */
+require 'api/init.php';

@@ -4,6 +4,7 @@
 
 #zing-mp3 form .zing-action #img_loading {
     display: none;
+    margin-left: 1rem;
 }
 
 #zing-mp3 form .zing-action #btn_reset {
@@ -16,4 +17,5 @@
 
 #zing-mp3 #zing_error {
     display: none;
+    margin-top: 2rem;
 }

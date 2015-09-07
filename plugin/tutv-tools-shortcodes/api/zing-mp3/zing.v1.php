@@ -45,12 +45,12 @@ function tutv_zing_mp3_api_by_id( $id ) {
 	$tutv_mp3 = array();
 	if ( ! $id ) {
 		//Status
-		$tutv_mp3['validate'] = false;
+		$tutv_mp3['status'] = false;
+		$tutv_mp3['msg']    = esc_html__( 'URL not validate!', 'tutv' );
 		tutv_json_e( $tutv_mp3 );
 
 		return;
 	}
-	$tutv_mp3['validate'] = true;
 
 	$url     = sprintf( 'http://api.mp3.zing.vn/api/mobile/song/getsonginfo?keycode=%s&requestdata={"id":"%s"}', ZING_MP3_KEYCODE, $id );
 	$content = tutv_file_get_contents_json( $url );
@@ -72,6 +72,7 @@ function tutv_zing_mp3_api_by_id( $id ) {
 	} else {
 		//Status
 		$tutv_mp3['status'] = false;
+		$tutv_mp3['msg']    = esc_html__( 'Song not found!', 'tutv' );
 	}
 
 	tutv_json_e( $tutv_mp3 );
