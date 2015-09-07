@@ -22,6 +22,7 @@ jQuery(document).ready(function ($) {
 
         img_loading.fadeIn();
 
+        btn_reset_dom.hide();
         example_dom.hide();
         result_dom.hide();
         error_dom.hide();
@@ -42,6 +43,7 @@ jQuery(document).ready(function ($) {
                     result_dom.find('#music_128').attr('download', data.music_128);
                     result_dom.find('#music_320').attr('href', data.music_320);
                     result_dom.find('#music_320').attr('download', data.music_320);
+                    result_dom.find('.lyrics').html(data.lyrics);
 
                     result_dom.fadeIn();
                 } else {

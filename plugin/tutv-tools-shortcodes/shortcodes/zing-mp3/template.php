@@ -32,6 +32,9 @@
 			<a type="button" class="btn btn-success btn-lg"
 			   id="music_320"><?php esc_html_e( '320 kpbs', 'tutv' ); ?></a>
 		</div>
+		<h4><?php esc_html_e( 'Lyrics', 'tutv' ); ?></h4>
+
+		<div class="lyrics"></div>
 	</div>
 	<div id="zing_error"></div>
 </div>
