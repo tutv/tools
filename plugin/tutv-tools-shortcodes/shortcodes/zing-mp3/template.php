@@ -17,7 +17,7 @@
 	<div id="zing_example">
 		<h3><?php esc_html_e( 'Example: ', 'tutv' ); ?></h3>
 		<ul class="list-url-example">
-			<li><?php printf( __( wp_kses( 'Song: <a href="%1$s">%1$s</a>', array( 'a' => array( 'href' => array() ) ) ), 'tutv' ), 'http://mp3.zing.vn/bai-hat/Chieu-Nay-Khong-Co-Mua-Bay-Trung-Quan-Idol/ZW6CED0I.html' ); ?></li>
+			<li><?php printf( __( wp_kses( 'Song: <a href="#">%1$s</a>', array( 'a' => array( 'href' => array() ) ) ), 'tutv' ), 'http://mp3.zing.vn/bai-hat/Chieu-Nay-Khong-Co-Mua-Bay-Trung-Quan-Idol/ZW6CED0I.html' ); ?></li>
 		</ul>
 	</div>
 	<div id="zing_result">

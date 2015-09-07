@@ -12,8 +12,9 @@ jQuery(document).ready(function ($) {
 
     example_dom.find('a').on('click', function (e) {
         e.preventDefault();
+        e.stopPropagation();
 
-        var url = $(this).attr('href');
+        var url = $(this).text();
         url_zing_dom.val(url);
     });
 
