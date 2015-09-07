@@ -22,7 +22,7 @@
 				 */
 				do_action( 'tutv_credits' );
 			?>
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'tutv' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'tutv' ), 'WordPress' ); ?></a>
+			<a href="<?php echo esc_url( __( 'http://tutran.me', 'tutv' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'tutv' ), 'Tu Tran Blog' ); ?></a>
 		</div><!-- .site-info -->
 	</footer><!-- .site-footer -->
 
