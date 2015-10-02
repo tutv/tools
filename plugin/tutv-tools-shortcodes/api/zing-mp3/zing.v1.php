@@ -57,6 +57,7 @@ function tvtv_zing_mp3_ajax() {
 }
 
 add_action( 'wp_ajax_' . TV_APP_ZING_MP3, 'tvtv_zing_mp3_ajax' );
+add_action( 'wp_ajax_nopriv_' . TV_APP_ZING_MP3, 'tvtv_zing_mp3_ajax' );
 
 function tutv_zing_mp3_get_type_url( $url ) {
 	$tutv_type_url = explode( 'mp3.zing.vn/', $url )[1];
