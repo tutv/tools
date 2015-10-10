@@ -52,6 +52,13 @@ function tvtv_zing_mp3_ajax() {
 		'url' => ( isset( $_POST['url'] ) ) ? $_POST['url'] : null
 	);
 
+	if ( $args['id'] == null && $args['url'] == null ) {
+		$args = array(
+			'id'  => ( isset( $_GET['id'] ) ) ? $_GET['id'] : null,
+			'url' => ( isset( $_GET['url'] ) ) ? $_GET['url'] : null
+		);
+	}
+
 	do_action( 'tvtv_zing_mp3_ajax', $args );
 	wp_die();
 }
